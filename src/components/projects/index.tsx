@@ -62,6 +62,33 @@ const listProjects = [
       },
     ],
   },
+  {
+    title: "Didesign",
+    description:
+      "Didesign is a collaborative design platform built with Next.js, TypeScript, Liveblocks, Fabric.js, Shadcn, and Tailwind CSS. It offers a rich set of features to enable real-time design collaboration and creativity.",
+    image:
+      "https://res.cloudinary.com/dg6ymnwfn/image/upload/v1721359984/portofolio/projects/joobmxax5zgvh0yfga4o.png",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "Shadcn",
+      "TailwindCSS",
+      "Liveblocks",
+      "Fabric.js",
+    ],
+    links: [
+      {
+        title: "Demo",
+        link: "https://didesign.vercel.app/",
+        icon: "devicon-react-original",
+      },
+      {
+        title: "Github",
+        link: "https://github.com/rianmandala/didesign",
+        icon: "devicon-github-original",
+      },
+    ],
+  },
 ];
 
 const Projects = () => {
