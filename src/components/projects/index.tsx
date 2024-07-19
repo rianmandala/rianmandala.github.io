@@ -5,6 +5,33 @@ import { useInView } from "react-intersection-observer";
 
 const listProjects = [
   {
+    title: "Dimeet",
+    description:
+      "Dimeet is a seamless online meeting platform built with Next.js, TypeScript, Clerk, getstream, shadcn, and Tailwind CSS. It offers a range of features to facilitate secure and efficient online meetings.",
+    image:
+      "https://res.cloudinary.com/dg6ymnwfn/image/upload/v1721423176/portofolio/projects/hnhm0h0aybr7zuxah500.png",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "Clerk",
+      "shadcn",
+      "Tailwind CSS",
+      "getstream",
+    ],
+    links: [
+      {
+        title: "Demo",
+        link: "https://dimeet.vercel.app/",
+        icon: "devicon-react-original",
+      },
+      {
+        title: "Github",
+        link: "https://github.com/rianmandala/dimeet",
+        icon: "devicon-github-original",
+      },
+    ],
+  },
+  {
     title: "Images-AI",
     description:
       "Break the creative barrier with DALL-E 3, the revolutionary AI image generation tool. Describe your vision in words, and watch DALL-E 3 bring it to life as a stunning, high-resolution image.",
@@ -14,8 +41,6 @@ const listProjects = [
       "Typescript",
       "React js",
       "Ant design",
-      "Tailwind css",
-      "Claudinary",
       "Firebase",
       "Mongo DB",
       "Express",
