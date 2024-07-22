@@ -70,11 +70,11 @@ const Menus = () => {
     <>
       <Button
         onClick={() => setOpenSheet(true)}
-        className="md:hidden"
+        className="md:hidden bg-custom-secondary-dark hover:bg-custom-dark"
         variant="outline"
         size="icon"
       >
-        <HamburgerMenuIcon className="h-[20px] w-[20px] text-custom-dark" />
+        <HamburgerMenuIcon className="h-[20px] w-[20px] text-custom-light" />
       </Button>
       <Sheet open={openSheet} onOpenChange={setOpenSheet}>
         <SheetContent className="z-[99] bg-custom-dark pt-[60px]">

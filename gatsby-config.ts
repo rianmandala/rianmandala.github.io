@@ -20,6 +20,7 @@ const config: GatsbyConfig = {
           "@/lib": "src/lib",
           "@/components": "src/components",
           "@/context": "src/context",
+          "@/constants": "src/constants",
         },
       },
     },

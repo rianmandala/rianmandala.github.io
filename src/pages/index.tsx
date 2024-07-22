@@ -16,7 +16,7 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <InfoProvider>
       <div className="bg-custom-dark font-['Roboto']">
-        <div className="max-w-[90%] md:max-w-[80%] lg:max-w-[70%] mx-auto">
+        <div className="max-w-[90%] xl:max-w-[80%] lg:max-w-[85%] mx-auto">
           <div className="min-h-[100vh] w-full">
             <Navbar />
             <Header />
