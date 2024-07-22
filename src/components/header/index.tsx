@@ -3,6 +3,8 @@ import React from "react";
 import { ReactTyped } from "react-typed";
 
 const Header = () => {
+  const gdriveId = "1W54t12qMhJA1OI2H2KK59clVj9FQDj_B";
+
   return (
     <header className="z-10 relative mt-[12%] text-custom-light flex flex-col md:flex-row flex-col-reverse justify-between items-center gap-[24px]">
       <div className="md:w-[50%] w-full">
@@ -24,7 +26,7 @@ const Header = () => {
         </p>
         <a
           className="no-underline"
-          href="https://drive.google.com/uc?id=1VD1fM4qK6HZnuOVxtfnOjR-2d7l5N3Vl&export=download"
+          href={`https://drive.google.com/uc?id=${gdriveId}&export=download`}
         >
           <ButtonMovingBorder
             className="hover:text-custom-primary"
