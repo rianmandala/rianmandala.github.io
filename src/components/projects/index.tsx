@@ -34,20 +34,34 @@ const Projects = () => {
               delay={0.25 + idx * 0.05}
               inView
             >
-              <div className="bg-custom-secondary-dark pb-[2px] rounded overflow-hidden">
-                <img
-                  className="w-full h-[250px] object-cover"
-                  src={project.image}
-                  alt={project.title}
-                />
+              <div className="group bg-custom-secondary-dark pb-[2px] overflow-hidden">
+                <a
+                  key={idx}
+                  className="no-underline relative"
+                  href={project.link}
+                  target="_blank"
+                >
+                  <img
+                    className="transition-all group-hover:scale-[0.9] w-full h-[250px] object-cover"
+                    src={project.image}
+                    alt={project.title}
+                  />
+                </a>
                 <div className="pt-[22px] pb-0 px-4">
                   <h2 className="md:text-[24px] text-[21px] font-bold text-custom-light mb-1">
-                    {project.title}
+                    <a
+                      key={idx}
+                      className="hover:text-custom-primary no-underline relative"
+                      href={project.link}
+                      target="_blank"
+                    >
+                      {project.title}
+                    </a>
                   </h2>
-                  <p className="line-clamp-3 text-xs text-custom-grey leading-[22px] overflow-hidden mb-3">
+                  <p className="relative line-clamp-3 text-xs text-custom-grey leading-[22px] overflow-hidden mb-3">
                     {project.description}
                   </p>
-                  <div className="text-xs flex flex-wrap gap-1">
+                  <div className="relative text-xs flex flex-wrap gap-1">
                     {project.techStack.map((tech, idx) => (
                       <Badge
                         key={idx}

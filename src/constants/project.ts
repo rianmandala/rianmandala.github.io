@@ -13,6 +13,7 @@ export const listProjects = [
       "Tailwind CSS",
       "getstream",
     ],
+    link: "https://dimeet.vercel.app/",
     links: [
       {
         title: "Demo",
@@ -42,6 +43,7 @@ export const listProjects = [
       "React Hook Form",
       "Zod",
     ],
+    link: "https://diupdate.vercel.app/",
     links: [
       {
         title: "Demo",
@@ -71,6 +73,7 @@ export const listProjects = [
       "Shadcn",
       "TailwindCSS",
     ],
+    link: "https://imaginary-od9j.vercel.app/",
     links: [
       {
         title: "Demo",
@@ -98,6 +101,7 @@ export const listProjects = [
       "Liveblocks",
       "Fabric.js",
     ],
+    link: "https://didesign.vercel.app/",
     links: [
       {
         title: "Demo",
@@ -125,6 +129,7 @@ export const listProjects = [
       "Mongo DB",
       "Express",
     ],
+    link: "https://imagess-ai.web.app/",
     links: [
       {
         title: "Demo",
